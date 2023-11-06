@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Quicksand:wght@500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: inline;
+}
+   
+.header {
+    background-color: #333;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+}
+
+.header ul li {
+    text-decoration: none;
+    margin-right: 45px;
+    display: inline-block;
+    font-size: 20px;
+    color: #ffff;
+}
+
+.header a:hover {
+    color: whitesmoke;
+    font-weight: 800;
+}
+
+main {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+article {
+    text-align: left;
+    padding: 60px 0 ;
+}
+
+.beranda {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    text-align: left;
+    align-items: center;
+    display: flex;
+}
+
+.content {
+    max-width: 700px;
+    flex: 1;
+    padding-left: 50px;
+}
+
+.content h5 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.content h4 {
+    color: #333;
+    font-size: 34px;
+    margin: 10px 0;
+}
+
+.content span {
+    color: #777;
+    font-size: 14px;
+    display: flex;
+}
+
+.content-foto{
+    flex: 1;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.content button {
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background: black;
+    color: #ffff;
+    box-shadow: 0 0 10px black;
+    font-weight: 800;
+}
+
+.content-foto img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 50%;
+    background: transparent;
+    padding: 10px;
+    box-shadow: 0 0 0 2px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    flex: 1;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+}
+
+.saya {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-tentang {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img-tentang img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 50%;
+    background: transparent;
+    padding: 10px;
+    margin-left: 30px;
+    box-shadow: 0 0 0 2px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.text-tentang {
+    flex: 1;
+    margin: 0px;
+}
+
+.text-tentang h2{
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px;
+    text-align: left;
+}
+
+.text-tentang p {
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+    text-align: justify;
+}
+
+.kontak {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.kontak h2 {
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+    display: inline-flex;
+}
+
+.kontak ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontak ul li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.kontak a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    text-decoration: none;
+    border: 3px dashed #333;
+    color: #777;
+    border-radius: 50%;
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    padding: 0;
+}
+
+.kontak a:hover{
+    background: black;
+    color: #ffff;
+    box-shadow: 0 0 10px black;
+    font-weight: 800;
+}
+
+.kontak img {
+    max-width: 100px;
+    height: auto;
+}
+
+.kontak img:hover {
+    background: #BC7AF9;
+    color: #ffff;
+    box-shadow: 0 0 30px #BC7AF9;
+    border-radius: 50%;
+}
+
+.kontak span {
+    font-style: oblique;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    font-weight: bolder;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header nav {
+        margin-top: 20px;
+    }
+
+    .header ul {
+        flex-direction: column;
+    }
+
+    .header li {
+        margin-bottom: 10px;
+    }
+
+    aside {
+        text-align: center;
+    }
+}
+
